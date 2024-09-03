@@ -1,0 +1,35 @@
+
+###High Priority:
+1) to plot the most important plasma parameters for kinetic simulations using local parameters (beta, n, grad(n), T,
+      grad(T), backgroud B, B fluctuation, delta background B, etc). That would help to ensure validity
+      of gk codes on that region.
+      partially done, now need to do the same for density, temperature, and compute beta using B and plasmapy
+
+      Get rid of printing all variable everytime something is plotted.
+
+3) THERE IS SOME PROBLEM WITH DISPLAYING MMS PLOTS. (SAVING IS STILL FINE BUT THE ERROR PERSISTS)
+    IT LOOKS LIKE ALL PLOTS ARE THE SAME ? MAYBE RELOAD PYCHARM?
+    SEEM TO BE FIXED -> TEST TOMORROW (OR THURSDAY) AND PROCEED WITH TIME SERIES ANALYSIS
+
+2) MOVE TOWARDS TIME SERIES DATA ANALYSIS ASAP!!! Start with B Spectral Analysis?
+
+
+###Middle Priority:
+1) Double test mms download, reliability, etc...
+2) Double check why orbit looks messed up and try to also plot the magnetopause T96. (orbit2D should be a separated
+    class with the T96 property, still check for proper time_range usage)
+3) Orbit2D T98 magnetopause issue still persists!!!
+4) Organize the downloaded_data file structure, locally and how the functions are creating those files.
+5) Pydata (from when when uses mms download) should be saved inside data files, not in local dir.
+6) New file, class where the user can explore the metadata of the cdf downloaded
+
+
+###Lower Priority:
+1) Select Plot Action windows needs to close the old one and open a new one, otherwise they accumulate and stack
+    on top of each other.
+2) Find a way to plot the best fit of the 3D magnetopause's fixed parameters using the T96 dynamic curve
+    generated with mp_dat = pytplot.get_data('mpause_gse_hi')
+3) Add option to explore CDF properties of downloaded files
+4) Add magnetic reconnection from old jupyter notebook (like in florians paper)
+5) Add field particle correlation
+6) clear way to make ones own plot
