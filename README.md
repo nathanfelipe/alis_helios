@@ -1,6 +1,12 @@
 
 # Alis Helios
 
+
+<p align="center">
+  <img src="logos/logo.jpeg" />
+</p>
+
+
 Alis Helios is an ongoing project that provides tools and a graphical user interface (GUI) to analyze astrophysical and space physics data, supporting various
 computational functionalities such as orbit calculations, power spectral density analysis, and data visualization. More details about the code can be found on a poster
 I presented at the 15th International Symposium for Space Simulations (ISSS-15) and the 16th International Workshop on the Interrelationship between Plasma 
