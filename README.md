@@ -6,8 +6,8 @@ computational functionalities such as orbit calculations, power spectral density
 I presented at the 15th International Symposium for Space Simulations (ISSS-15) and the 16th International Workshop on the Interrelationship between Plasma 
 Experiments in the Laboratory and in Space (IPELS-16). [Link to the poster.](http://www.nathan.science/talks/15th-international-symposium-for-space-simulations-isss-15-and-the-16th-international-workshop-on-the-interrelationship-between-plasma-experiments-in-the-laboratory-and-in-space-ipels-16)
 
-The code has been designed to ccomodate any data that can be accessed with a python command. As of now we use THEMIS and MMS data, but in principle with a few lines of code 
-you can add any other spacecraft/satellite/etc. Once the data is download the toosl used for time series analysis could be translated to the time series of the new source. 
+The code has been designed to accommodate any data that can be accessed with a few python lines of code. As of now we use THEMIS and MMS data, but in principle with a few lines of code 
+you can add any other spacecraft/satellite/etc. Once the data is downloaded the tools used for time series analysis could be translated to the time series data of the new source. 
 
 ## Features (in development)
 
