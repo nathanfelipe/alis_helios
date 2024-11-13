@@ -81,6 +81,11 @@ All options can be used via de GUI by just runnig main.py. More details about th
 - **kinetics.py**: Module for kinetics-related data processing.
 - **downloader.py**: Supports data downloading and pre-processing.
 
+## References
+
+I learned a lot of the content used to develop  this code from online classes and documentations from the main libraries (pyspedas, sunpy, plasmapy, etc). But for an
+incredible helpful source/reference, I would like to mention the [Python Heliophysics Community](https://heliopython.org), and all the resources therewithin. 
+
 ## Future Enhancements
 
 Refer to `todo.txt` for planned improvements and ongoing tasks. I would be happy to have collaborators for this project, please contact me if you are interested. 
